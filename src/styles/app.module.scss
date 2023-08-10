@@ -1,0 +1,51 @@
+.app-container {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  & .screen {
+    position: relative;
+    width: 100%;
+
+    display: grid;
+    height: 100vh;
+
+    grid-template: 1fr 15fr / 1fr;
+
+    & .app-header {
+      display: flex;
+    }
+
+    & .app-main-area {
+      position: relative;
+
+      display: flex;
+      justify-content: center;
+      & canvas {
+        display: flex;
+        aspect-ratio: unset!important;
+      }
+    }
+  }
+
+  & .app-footer {
+    display: flex;
+    flex-grow: 1;
+    min-height: 5rem;
+  }
+}
+// .display-container {
+//   z-index: 2;
+//   & .layout {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100vw;
+//     height: 100vh;
+//   }
+//   & canvas {
+//     z-index: 1;
+//     display: block;
+//     width: 100vw !important;
+//     height: 100vh !important;
+//   }
+// }

@@ -1,2 +1,2 @@
-# project-intersection-sim
-Simple web app that simulates intersection traffic
+# Project Intersection Sim
+Simple web app that simulate simple intersection traffic
